@@ -24,6 +24,7 @@ To which term you want its sum?  ");
 long int factorial(int n)
  {
   if (n<=1)
+	  
 	return(1);
   else
 	n=n*factorial(n-1);
