@@ -22,7 +22,6 @@ int main(void) {
   x[i] = calloc(strlen(word)+1, sizeof(char));
   strcpy(x[i], word);
  }
-
  n = i;
  sort_words(x, n);
   for(i = 0; i < n; ++i)
